@@ -65,7 +65,7 @@ Ten projekt zawiera skrypt `articleparser.py`, który jest aplikacją napisaną 
 ## Wymagania dotyczące HTML
 
 - Struktura HTML ogranicza się do sekcji `<body>`.
-- Nie dodano stylów CSS ani JavaScript poza podstawowym formatowaniem, zgodnie z wymaganiami zadania.
+
 
 ## Informacje dodatkowe
 

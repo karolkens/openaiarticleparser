@@ -62,12 +62,5 @@ Ten projekt jest aplikacją w Pythonie, która konwertuje treść artykułu z pl
 ## Wymagania dotyczące HTML
 
 - Struktura HTML ogranicza się do sekcji `<body>`.
-- Nie dodawano stylów CSS ani JavaScript, zgodnie z wymaganiami.
-
-## Autor
-
-Aplikacja została stworzona na potrzeby rekrutacji do firmy Oxido.
-
-## Informacje dodatkowe
 
 Jeśli masz pytania lub napotkasz problemy, skontaktuj się ze mną poprzez sekcję Issues w tym repozytorium.

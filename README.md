@@ -37,21 +37,30 @@ Ten projekt jest aplikacją w Pythonie, która konwertuje treść artykułu z pl
 1. **Przygotowanie pliku artykułu**:
    Umieść plik tekstowy z artykułem w folderze głównym projektu lub podaj do niego pełną ścieżkę. Domyślna ścieżka pliku jest ustawiona w zmiennej `article_path` w funkcji `main`.
 
-2. **Uruchomienie aplikacji**:
+2. **Tymczasowe obrazy**:
+   W projekcie znajduje się przykładowy obrazek zastępczy `A_simple_placeholder_image_of_a_mountain_landscape.png`, który można wykorzystać jako wizualny wypełniacz w miejscach przeznaczonych na grafiki w artykule.
+
+3. **Uruchomienie aplikacji**:
    Aby uruchomić aplikację, w terminalu wykonaj:
    ```bash
    python articleparser.py
    ```
 
-3. **Wynik**:
+4. **Wynik**:
    Po uruchomieniu aplikacja wygeneruje plik `artykul.html`, który zawiera kod HTML artykułu. HTML jest przygotowany zgodnie z wymogami:
    - Tekst jest strukturalnie podzielony na odpowiednie sekcje HTML.
    - W miejscach na grafiki wstawiono tagi `<img src="image_placeholder.jpg" alt="prompt do grafiki">` wraz z podpisami.
+
+5. **Podgląd artykułu**:
+   Aplikacja automatycznie generuje także plik `podglad.html`, który jest pełnym podglądem artykułu opartym na pliku `szablon.html`. Możesz otworzyć ten plik w przeglądarce, aby zobaczyć finalny wygląd artykułu.
 
 ## Pliki
 
 - `articleparser.py` – główny skrypt programu, który konwertuje artykuł do HTML.
 - `artykul.html` – wynikowy plik HTML generowany przez aplikację.
+- `szablon.html` – pusty szablon HTML używany do generacji podglądu.
+- `podglad.html` – pełny podgląd artykułu generowany w oparciu o szablon.
+- `A_simple_placeholder_image_of_a_mountain_landscape.png` – tymczasowy obrazek zastępczy.
 
 ## Wymagania dotyczące HTML
 

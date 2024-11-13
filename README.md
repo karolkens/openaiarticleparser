@@ -41,8 +41,8 @@ Ten projekt zawiera skrypt `articleparser.py`, który jest aplikacją napisaną 
 
 ## Użycie
 
-1. **Przygotowanie pliku artykułu (`artykul.txt`)**:
-   Umieść plik tekstowy `artykul.txt` zawierający treść artykułu w tym samym katalogu, co `articleparser.py`. Skrypt automatycznie wczyta ten plik.
+1. **Przygotowanie pliku artykułu (`plikartykulu.txt`)**:
+   Umieść plik tekstowy `plikartykulu.txt` zawierający treść artykułu w tym samym katalogu, co `articleparser.py`. Skrypt automatycznie wczyta ten plik.
 
 2. **Uruchomienie aplikacji**:
    Aby uruchomić aplikację, użyj komendy:
@@ -57,7 +57,7 @@ Ten projekt zawiera skrypt `articleparser.py`, który jest aplikacją napisaną 
 ## Pliki
 
 - `articleparser.py` – główny skrypt programu.
-- `artykul.txt` – plik tekstowy z treścią artykułu (wymagany).
+- `plikartykulu.txt` – plik tekstowy z treścią artykułu (wymagany).
 - `szablon.html` – pusty szablon HTML używany do generacji podglądu (wymagany).
 - `artykul.html` – wynikowy plik HTML generowany przez aplikację.
 - `podglad.html` – pełny podgląd artykułu generowany w oparciu o szablon.
